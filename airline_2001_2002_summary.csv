@@ -1,0 +1,31 @@
+,2001,,,,2002,,,,,,# Summary,
+,# Missing Values,# No missing values,# Total instances,# Outliers,# Missing Values,# No missing values,# Total instances,# Outliers,# CSV_output,# Plots,,
+Year ,0,596778,596778,0,0,527136,527136,0,,,2001,2002
+Month ,0,596778,596778,0,0,527136,527136,0,,Y,"Departure delay in general is about 3 min longer than Arrive delay; Apr, Jul, Aug, Dec seems have longer delays (almost 8 min on average); Sep seems to have better situations","Departure delay in general is about 3 min longer than Arrive delay; Apr, Jul, Aug, Dec seems have longer delays (almost 8 min on average); Sep seems to have better situations"
+DayofMonth ,0,596778,596778,0,0,527136,527136,0,,Y,,
+DayOfWeek ,0,596778,596778,0,0,527136,527136,0,,,,
+DepTime ,23111,573667,596778,0,6557,520579,527136,0,Y,Y,"Flights delay between 00:00:00 – 05:00:00 tends to fluctuate more than other time periods, longest is more than 950 min","Flights delay between 00:00:00 – 04:00:00 tends to fluctuate more than other time periods, longest is about 700 min"
+CRSDepTime ,0,596778,596778,0,0,527136,527136,0,,,,
+ArrTime ,24426,572352,596778,0,7365,519771,527136,0,Y,Y,"Flights delay between 00:00:00 – 05:00:00 tends to fluctuate more than other time periods, longest delay is more than 400 min","Flights delay between 00:00:00 – 05:00:00 tends to fluctuate more than other time periods, longest delay is about 500 min"
+CRSArrTime ,0,596778,596778,0,0,527136,527136,0,,,,
+UniqueCarrier ,0,596778,596778,0,0,527136,527136,0,Y,Y,"10 Carriers in the table, can't tell whether the scale of the carriers really matters or not from the barchart","10 Carriers in the table, can't tell whether the scale of the carriers really matters or not from the barchart, delays a little bit shorter than 2001"
+FlightNum ,0,596778,596778,0,0,527136,527136,0,,,,
+TailNum ,0,596778,596778,0,3071,524065,527136,0,,,,
+ActualElapsedTime ,24426,572352,596778,7607,7365,519771,527136,6397,,,,
+CRSElapsedTime ,0,596778,596778,8155,0,527136,527136,6306,,,,
+AirTime ,24426,572352,596778,8039,7384,519752,527136,6750,Y,Y,Mean: 99 min; Maybe clustering would help to correlate fly time and delay; 9-11 affected one week's fly time,Mean: 104 min; Maybe clustering would help to correlate fly time and delay; no fly time less than 90 min
+ArrDelay ,24426,572352,596778,11149,7365,519771,527136,9009,Y,Y,Mean: 4 min,Mean: 3 min
+DepDelay ,23111,573667,596778,11923,6557,520579,527136,9498,Y,Y,Mean: 7 min,Mean: 5 min
+Origin ,0,596778,596778,0,0,527136,527136,0,Y,Y,Top Early/Delay ploted,Top Early/Delay ploted
+Dest ,0,596778,596778,0,0,527136,527136,0,Y,Y,Top Early/Delay ploted,Top Early/Delay ploted
+Distance ,0,596778,596778,9891,0,527136,527136,6642,Y,Y,"Longest: 4962km, mean: 734km, must be domestic flights","Longest: 4962km, mean: 760km, must be domestic flights"
+TaxiIn ,0,596778,596778,9793,0,527136,527136,780,,,Don't know what is this about,Don't know what is this about
+TaxiOut ,0,596778,596778,8391,0,527136,527136,6904,,,Don't know what is this about,Don't know what is this about
+Cancelled ,0,596778,596778,0,0,527136,527136,0,,,,
+CancellationCode ,596778,0,596778,0,527136,0,527136,0,,,,
+Diverted ,0,596778,596778,0,0,527136,527136,0,Y,Y,1315 Diverted == 1; A lot of departure delay outliers; longest delay: ~1300min,808 Diverted == 1; A lot of departure delay outliers; longest delay: ~550min
+CarrierDelay ,596778,0,596778,0,527136,0,527136,0,,,No data,No data
+WeatherDelay ,596778,0,596778,0,527136,0,527136,0,,,No data,No data
+NASDelay ,596778,0,596778,0,527136,0,527136,0,,,No data,No data
+SecurityDelay ,596778,0,596778,0,527136,0,527136,0,,,No data,No data
+LateAircraftDelay ,596778,0,596778,0,527136,0,527136,0,,,No data,No data
